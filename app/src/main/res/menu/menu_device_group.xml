@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.iot.doorsensor.DeviceGroupActivity">
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="10"
+        android:title="@string/action_add"
+        android:icon="@drawable/plus"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_devices"
+            android:icon="@drawable/menu_icon"
+            android:title="@string/pref_header_devices" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/my_account"
+            android:title="@string/pref_header_my_account" />
+        <item
+            android:id="@+id/nav_sub_accounts"
+            android:icon="@drawable/sub_accounts"
+            android:title="@string/pref_header_sub_accounts" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/notifications"
+            android:title="@string/pref_header_notifications" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/pref_header_logout" />
+    </group>
+
+</menu>
